@@ -12,6 +12,7 @@ const routes = new Router();
 
 routes.post("/cooperado", CooperadoController.store);
 routes.get("/cooperado", CooperadoController.show);
+routes.get("/cooperado", CooperadoController.show);
 
 
 routes.post("/pauta", PautaController.store);

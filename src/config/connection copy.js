@@ -6,7 +6,7 @@ class Connection {
   }
 
   dataBaseConnectionMongoDB(){
-    this.mongoDBConnection = mongoose.connect("mongodb+srv://root:MIg98gswzBEOtZnQ@cluster0.pozq0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
+    this.mongoDBConnection = mongoose.connect("mongodb://localhost/nodejs", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useFindAndModify: false,
